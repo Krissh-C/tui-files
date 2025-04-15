@@ -1,12 +1,25 @@
-Very incomplete
+<div align="center">
+             <img src="images/MonoTUI_Icon.png" alt="MonoTUI Icon" width="256" />
+             <h1>MonoTUI</h1>
+</div>
+
+My collection of themes and apps for a TUI system theme. Everything was made possible because of community efforts. I cannot express how much I love the community for all these projects and I appreciate them for all the hard work they have done.
+
+![Windows](https://img.shields.io/badge/OS-Windows_11-0079d5) ![OS](https://img.shields.io/badge/Release-24H2-green?style=flat) ![Version](https://img.shields.io/badge/Build-26100.3902-red)
+
+----------
+
+### Very incomplete
 
 to do:
 - add config files for everything
 - add screenshots
-- add setup and how-to for powershell appearance, windhawk
+- add setup and how-to for windhawk
 - add credits for everything
 
-# GlazeWM
+----------
+
+### GlazeWM
 (Add screenshot)
 
 [Get it from here!](https://github.com/glzr-io/glazewm)
@@ -16,7 +29,9 @@ to do:
 
 This file contains a few changes (such as different window gap sizes, transparent inactive windows, small changes to keyboard shortcuts, center floating windows, etc..)
 
-# Zebar
+----------
+
+### Zebar
 (Add screenshot)
 
 Should be installed automatically with GlazeWM, if not get it [here](https://github.com/glzr-io/zebar).
@@ -31,7 +46,9 @@ Should be installed automatically with GlazeWM, if not get it [here](https://git
   - Uncheck the items under default in `starter/with-glazewm`
   - Check the same items (`Enabled` & `Launch on startup`) for `text-zebar/bar` 
 
-# Firefox
+----------
+
+### Firefox
 (Add screenshot)
 
 Get the theme from [here!](https://github.com/adriankarlen/textfox)
@@ -48,7 +65,9 @@ Get the theme from [here!](https://github.com/adriankarlen/textfox)
 
 To get a pitch black theme, I highly suggest downloading [this theme](https://addons.mozilla.org/en-US/firefox/addon/black21/).
 
-# Discord
+----------
+
+### Discord
 > [!WARNING]  
 > This theme is currently broken due to Discord's new UI refresh. For the time being, I highly suggest using the built-in midnight theme
 
@@ -68,7 +87,9 @@ To get a pitch black theme, I highly suggest downloading [this theme](https://ad
    - Delete everything in there and paste all the code from `CSS filename` into the editor
    - Save the file
 
-# Spotify
+----------
+
+### Spotify
 (Add screenshot)
 
 - Setup
@@ -98,9 +119,12 @@ To get a pitch black theme, I highly suggest downloading [this theme](https://ad
       ```
   - Select the TUI option from the theme drop-down
 
-# Powershell (Terminal)
+----------
+
+### Powershell (Terminal)
 (Add screenshot)
 
+1. Command Line
 - Setup
   - Download and install [Oh My Posh](https://github.com/JanDeDobbeleer/oh-my-posh)
 
@@ -110,8 +134,22 @@ To get a pitch black theme, I highly suggest downloading [this theme](https://ad
     `oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/nordtron.omp.json" | Invoke-Expression`
   
     (This is using the [nordtron theme](https://ohmyposh.dev/docs/themes#nordtron))
-    
-# VSCode
+
+2. Terminal Appearance
+- Setup
+  - Make sure Windows Terminal is installed and is set as your default terminal app
+
+- Apply
+  - Open Terminal settings
+  - Navigate to `Defaults/Additional Settings/Appearance`
+  - Under `Transparency`, enable acrylic material and set background opacity to `60%`
+  - Under Window, set padding to `28`
+  - Go back to Powershell, and press `Ctrl + Shift + P`, and search for `focus mode`
+  - Enable `Focus Mode`
+
+----------
+
+### VSCode
 (Add screenshot)
 
 - Setup
@@ -121,15 +159,21 @@ To get a pitch black theme, I highly suggest downloading [this theme](https://ad
   - Press `Ctrl + K Ctrl + T`
   - Select `monokai-charcoal (white)`
 
-# Windhawk
+----------
+
+### Windhawk
 Use the Start, Taskbar, Notification Center, Taskbar height and icon size, disable rounded corners stuff
 
 Mods done, paste into advanced
 
-# Wallpapers
+----------
+
+### Wallpapers
 [Basic Apple Guy Starfield Wallpapers](https://basicappleguy.com/basicappleblog/starfield)
 
-# Credits
+----------
+
+### Credits
 - 1
 - 2
 - 3

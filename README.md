@@ -1,16 +1,26 @@
 <div align="center">
-             <img src="images/MonoTUI.png" alt="MonoTUI Icon" width="256" />
-             <h1>MonoTUI</h1>
+  <img src="images/MonoTUI.png" alt="MonoTUI Icon" width="256" />
+  <h1>MonoTUI</h1>
 </div>
 
 <div align="center">
-             <img src="images/tiled.png" alt="Tiled Desktop" />
-             <img src="images/floating.png" alt="Floating Desktop" />
+  <img src="images/tiled.png" alt="Tiled Desktop" />
+  <img src="images/floating.png" alt="Floating Desktop" />
 </div>
 
-My collection of themes and apps for a TUI system theme. Everything was made possible because of community efforts. I cannot express how much I love the community for all these projects and I appreciate them for all the hard work they have done.
+<br>
 
-![Windows](https://img.shields.io/badge/OS-Windows_11-0079d5) ![OS](https://img.shields.io/badge/Release-24H2-green?style=flat) ![Version](https://img.shields.io/badge/Build-26100.3902-red)
+<div align="center">
+  My collection of themes and apps for a TUI system theme. Everything was made possible because of community efforts. I cannot express how much I love the community for all these projects and I appreciate them for all the hard work they have done.
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/OS-Windows_11-0079d5" alt="Windows 11" />
+  <img src="https://img.shields.io/badge/Release-24H2-green?style=flat" alt="24H2" />
+  <img src="https://img.shields.io/badge/Build-26100.3902-red" alt="Build Version" />
+</div>
 
 ----------
 

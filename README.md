@@ -4,8 +4,9 @@
 </div>
 
 <div align="center">
-  <img src="images/tiled.png" alt="Tiled Desktop" />
-  <img src="images/floating.png" alt="Floating Desktop" />
+  <img src="images/tileddesktop.png" alt="Tiled Desktop" />
+  <img src="images/floatingdesktop.png" alt="Floating Desktop" />
+  <img src="images/floatingterminal.png" alt="Terminal" />
 </div>
 
 <br>
@@ -28,14 +29,12 @@
 
 to do:
 - add config files for everything
-- add screenshots
-- add setup and how-to for windhawk
 - add credits for everything
 
 ----------
 
 ### GlazeWM
-(Add screenshot)
+![Tiled Desktop](images/tileddesktop.png)
 
 [Get it from here!](https://github.com/glzr-io/glazewm)
 
@@ -47,7 +46,7 @@ This file contains a few changes (such as different window gap sizes, transparen
 ----------
 
 ### Zebar
-(Add screenshot)
+![Zebar](images/zebar.png)
 
 Should be installed automatically with GlazeWM, if not get it [here](https://github.com/glzr-io/zebar).
 
@@ -64,7 +63,7 @@ Should be installed automatically with GlazeWM, if not get it [here](https://git
 ----------
 
 ### Firefox
-(Add screenshot)
+![Firefox](images/firefox.png)
 
 Get the theme from [here!](https://github.com/adriankarlen/textfox)
 
@@ -86,7 +85,7 @@ To get a pitch black theme, I highly suggest downloading [this theme](https://ad
 > [!WARNING]  
 > This theme is currently broken due to Discord's new UI refresh. For the time being, I highly suggest using the built-in midnight theme
 
-(Add screenshot)
+![Discord](images/discord.png)
 
 - Setup
    - Get [Betterdiscord](https://github.com/BetterDiscord/BetterDiscord) (works with Vencord too but we'll be using BetterDiscord)
@@ -105,7 +104,7 @@ To get a pitch black theme, I highly suggest downloading [this theme](https://ad
 ----------
 
 ### Spotify
-(Add screenshot)
+![Spotify](images/spotify.png)
 
 - Setup
    - Get [Spicetify-CLI](https://github.com/spicetify/cli) and apply
@@ -137,7 +136,7 @@ To get a pitch black theme, I highly suggest downloading [this theme](https://ad
 ----------
 
 ### Powershell (Terminal)
-(Add screenshot)
+![Terminal](images/terminal.png)
 
 1. Command Line
 - Setup
@@ -165,7 +164,7 @@ To get a pitch black theme, I highly suggest downloading [this theme](https://ad
 ----------
 
 ### VSCode
-(Add screenshot)
+![VSCode](images/vscode.png)
 
 - Setup
   - Search up [Monokai Charcoal](https://github.com/74th/vscode-monokaicharcoal) in the extensions page
@@ -177,14 +176,30 @@ To get a pitch black theme, I highly suggest downloading [this theme](https://ad
 ----------
 
 ### Windhawk
-Use the Start, Taskbar, Notification Center, Taskbar height and icon size, disable rounded corners stuff
+Install [Windhawk](https://windhawk.net/) and get it up and running
 
-Mods done, paste into advanced
+- Setup
+  - Search and install the following:
+    - Windows 11 Taskbar Styler
+    - Windows 11 Start Menu Styler (NOTE: This currently has a broken setup. Last working on 23H2. I just haven't found the time to fix it)
+    - Windows 11 Notification Center Styler
+    - Taskbar height and icon size
+    - Disable rounded corners in Windows 11
 
-----------
-
-### Wallpapers
-[Basic Apple Guy Starfield Wallpapers](https://basicappleguy.com/basicappleblog/starfield)
+- Apply
+  - Windows 11 Taskbar Styler
+    - Open the `TUI_Taskbar.json` file and copy everything in this file under `Windows 11 Taskbar Styler > Advanced > Mod Settings` and press Save
+  - Windows 11 Start Menu Styler
+    - Open the `TUI_Start.json` file and copy everything in this file under `Windows 11 Start Menu Styler > Advanced > Mod Settings` and press Save
+  - Windows 11 Notification Center Styler
+    - Download the `TUI_NotiCenter.json` file and copy everything in the file under `Windows 11 Notification Center Styler > Advanced > Mod Settings` and press Save
+  - Taskbar height and icon size
+    - Set `Icon Size` to 24
+    - Set `Taskbar Height` to 62
+    - Set `Taskbar Button Width` to 44
+    - Also make sure to enable `Automatically hide the taskbar` under `Windows Settings > Personalization > Taskbar > Taskbar behaviours`
+  - Disable rounded corners in Windows 11
+    - This does not require any setup. Make sure to disable and re-enable if Windows does any major updates.
 
 ----------
 

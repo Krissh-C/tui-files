@@ -25,14 +25,6 @@
 
 ----------
 
-### Very incomplete
-
-to do:
-- add config files for everything
-- add credits for everything
-
-----------
-
 ### GlazeWM
 ![Tiled Desktop](images/tileddesktop.png)
 
@@ -68,7 +60,7 @@ Should be installed automatically with GlazeWM, if not get it [here](https://git
 Get the theme from [here!](https://github.com/adriankarlen/textfox)
 
 - Setup
-   - Download/Clone the entire repository
+   - Download/Clone the entire repository from the link
    - Extract the zip file
 
 - Apply
@@ -96,9 +88,9 @@ To get a pitch black theme, I highly suggest downloading [this theme](https://ad
    - Open the theme store and get the [System24](https://github.com/refact0r/system24) theme.
 
 - Customise (Pitch black coloring)
-   - Download and open `CSS filename`
+   - Download and open `TUI_Discord.css`
    - Under the installed theme, click on the pencil icon
-   - Delete everything in there and paste all the code from `CSS filename` into the editor
+   - Delete everything in there and paste all the code from `TUI_Discord.css` into the editor
    - Save the file
 
 ----------
@@ -204,7 +196,15 @@ Install [Windhawk](https://windhawk.net/) and get it up and running
 ----------
 
 ### Credits
-- 1
-- 2
-- 3
-- 4
+- [Glzr.io](https://github.com/glzr-io) for GlazeWM and Zebar
+- [Isaac Tay](https://github.com/IsaacTay/text-zebar) for the awesome zebar theme
+- [Adrian Karlén](https://github.com/adriankarlen/textfox) for the textfox theme
+- [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord)
+- [refact0r](https://github.com/refact0r/system24) for the great system24 discord theme
+- [Spicetify](https://github.com/spicetify/cli)
+- [darkthemer](https://github.com/spicetify/spicetify-themes/tree/master/text) for the amazing Spicetify text theme
+- [Jan De Dobbeleer](https://github.com/JanDeDobbeleer) for Oh-my-posh
+- [Atsushi Morimoto](https://github.com/74th) for the VSCode Theme
+- [Windhawk](https://windhawk.net/)
+
+Apologies if I have missed anyone, please let me know if you would like to be added here.
